@@ -5,7 +5,7 @@ class Visa {
         if (age >= 18 && hasPassport) {
             System.out.println("Visa application accepted.");
         } else if (age >= 18 && !hasPassport) {
-            System.out.println("Apply for passport first.");
+            System.out.println(" Visa Application is rejected");
         } else {
             System.out.println("Visa not allowed.");
         }
